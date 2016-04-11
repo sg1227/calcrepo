@@ -13,6 +13,10 @@ public class Calculator {
 	public void multi(int x, int y) {
 		result=x*y;
 	}
+	
+	public void inc(int delta){
+		result += delta;
+	}
 	public int getResult() {
 		return result;
 	}
